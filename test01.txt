@@ -1,0 +1,30 @@
+//上传代码测试
+github的常用使用代码
+
+git clone  https://github.com/wuwenwenIT/test01.git 
+将远程仓库clone到本地
+
+git status
+可以创建一个text文本，进入text（本身为一个Git仓库），Git Bash，git status查看仓库状态。如果是红色，说明创建的文件text.txt没有被追踪，没有提交到本地仓库。
+
+git add  . 或者git add text.txt
+将文件添加到【临时缓冲区】
+
+git commit -m "备注有用的信息"
+将其提交到本地仓库
+
+git config --global user.name "My Name"
+git config --global user.email "abc@163.com"
+第一次提交需要输入用户名和邮箱
+
+git log
+查看仓库提交日志
+
+git status
+查看仓库状态
+
+git push origin master 或 git push origin main
+将本地仓库提交到远程仓库，origin 是远程主机的名字
+
+
+
