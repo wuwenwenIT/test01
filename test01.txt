@@ -1,6 +1,9 @@
 //上传代码测试
 github的常用使用代码
 
+rm -rf .git 删除git本地仓库
+
+
 git clone  https://github.com/wuwenwenIT/test01.git 
 将远程仓库clone到本地
 
