@@ -55,6 +55,15 @@ git checkout — XX 把XX文件在工作区的修改全部撤销。
 git rm XX 删除XX文件
 
 git remote add origin https://github.com/zongyunqingfeng/testgit 关联一个远程库
+Git 提示fatal: remote origin already exists 错误解决办法
+$ git remote rm origin
+$ git remote add origin git@github.com:FBing/java-code-generator
+如果执行 git remote rm origin 报错的话，我们可以手动修改gitconfig文件的内容
+$ vi .git/config
+把 [remote “origin”] 那一行删掉就好了。
+
+
+
 
 git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库
 
