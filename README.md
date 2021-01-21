@@ -6,9 +6,8 @@
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 
-> $git fetch origin    //获取远程更新
-> $git merge origin/master //把更新的内容合并到本地分支
-> $git pull --rebase origin master
-> $git push -u origin master
+    > $git fetch origin    //获取远程更新
+    > $git merge origin/master //把更新的内容合并到本地分支
+    > $git pull --rebase origin master
+    > $git push -u origin master
 
----
