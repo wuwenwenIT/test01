@@ -65,11 +65,17 @@ $ git remote add origin git@github.com:FBing/java-code-generator
 $ vi .git/config
 把 [remote “origin”] 那一行删掉就好了。
 
-$git fetch origin    //获取远程更新
-$git merge origin/master //把更新的内容合并到本地分支
+## 更新远程库
+### hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
 
+> $git fetch origin    //获取远程更新
+> $git merge origin/master //把更新的内容合并到本地分支
+> $git pull --rebase origin master
+> $git push -u origin master
 
-git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库
+---
 
 git clone https://github.com/zongyunqingfeng/testgit 从远程库中克隆
 
