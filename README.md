@@ -11,3 +11,5 @@ hint: 'git pull ...') before pushing again.
     > $git pull --rebase origin master
     > $git push -u origin master
 
+    //前面正常上传，后面pull以后再上传，不用merge
+    > $git rebase --continue
